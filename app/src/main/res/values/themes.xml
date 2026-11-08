@@ -1,0 +1,30 @@
+
+<resources>
+
+    <style name="Base.Theme.Bitey"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Main brand colors -->
+        <item name="colorPrimary">@color/bitey_primary</item>
+        <item name="colorOnPrimary">@color/bitey_surface</item>
+
+        <item name="colorSecondary">@color/bitey_secondary</item>
+        <item name="colorOnSecondary">@color/bitey_text_primary</item>
+
+        <!-- Screen and card colors -->
+        <item name="android:windowBackground">@color/bitey_background</item>
+        <item name="colorOnBackground">@color/bitey_text_primary</item>
+
+        <item name="colorSurface">@color/bitey_surface</item>
+        <item name="colorOnSurface">@color/bitey_text_primary</item>
+
+        <!-- Secondary surfaces and borders -->
+        <item name="colorSurfaceVariant">@color/bitey_secondary_background</item>
+        <item name="colorOnSurfaceVariant">@color/bitey_text_secondary</item>
+        <item name="colorOutline">@color/bitey_border</item>
+
+    </style>
+
+    <style name="Theme.Bitey" parent="Base.Theme.Bitey" />
+
+</resources>

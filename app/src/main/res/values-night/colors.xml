@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Same names as values/colors.xml: Android picks these automatically at night. -->
+    <color name="bitey_primary">#244C2B</color>
+    <color name="bitey_secondary">#A9D477</color>
+    <color name="bitey_background">#111B15</color>
+    <color name="bitey_surface">#1F2D23</color>
+    <color name="bitey_text_primary">#F4F7F0</color>
+    <color name="bitey_text_secondary">#C2CEBF</color>
+    <color name="bitey_border">#405446</color>
+    <color name="bitey_secondary_background">#293C2E</color>
+
+    <!-- Forest green on light cards, lime accent on dark cards. -->
+    <color name="bitey_favorite_icon">@color/bitey_secondary</color>
+    <!-- Intentionally do not override bitey_logo_capsule: it remains cream. -->
+</resources>

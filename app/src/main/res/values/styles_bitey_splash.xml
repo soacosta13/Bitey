@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cream window before Android draws the custom SplashActivity. -->
+    <style name="Theme.Bitey.Splash" parent="Theme.Bitey">
+        <item name="android:windowBackground">@color/bitey_logo_capsule</item>
+    </style>
+</resources>

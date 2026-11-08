@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Bitey</string>
+
+    <!-- Home-->
+    <string name="bitey_welcome_title">¡Bienvenido a Bitey!</string>
+    <string name="bitey_welcome_subtitle">Descubrí platos, explorá recetas y guardá tus favoritas.</string>
+    <string name="bitey_btn_go_recipes">Explorar recetas</string>
+    <string name="bitey_btn_exit">Salir</string>
+    <string name="bitey_label_dark_mode">Modo oscuro</string>
+
+    <!-- MainViewModel -->
+    <string name="empty_categories">No hay categorías disponibles.</string>
+    <string name="empty_meals">No se encontraron recetas en esta categoría.</string>
+    <string name="error_connection">No se pudo conectar. Revisá tu conexión a Internet.</string>
+    <string name="error_server">Error del servidor (%1$d).</string>
+    <string name="error_unexpected">Ocurrió un error inesperado.</string>
+    <string name="error_with_retry">%1$s Tocá para reintentar.</string>
+
+    <!-- Header -->
+    <string name="bitey_logo_description">Logo de Bitey</string>
+    <string name="cd_go_home">Ir al inicio</string>
+
+    <!-- Fragment XML-->
+    <string name="choose_category">Elegí una categoría</string>
+    <string name="meal_image_description">Imagen del plato</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_recipes">Recetas</string>
+    <string name="nav_saved">Mi Recetario</string>
+
+    <!-- Saved recipes -->
+    <string name="saved_title">Mi Recetario</string>
+    <string name="empty_saved">Todavía no guardaste recetas.\nTocá la estrella de un plato para agregarlo a Mi Recetario.</string>
+
+    <!-- Favorite buttons -->
+    <string name="cd_add_favorite">Guardar en Mi Recetario</string>
+    <string name="cd_remove_favorite">Quitar de Mi Recetario</string>
+
+    <!-- Favorite errors -->
+    <string name="error_favorite">No se pudo actualizar la receta guardada.</string>
+    <string name="error_load_favorites">No se pudo cargar Mi Recetario.</string>
+
+    <!-- Recipe search -->
+    <string name="search_hint">Buscar plato o ingrediente</string>
+    <string name="back_to_categories">Volver a categorías</string>
+    <string name="empty_search">No se encontraron recetas. Probá con otro nombre o ingrediente.</string>
+
+    <!-- Meal detail -->
+    <string name="detail_back">Volver</string>
+    <string name="detail_retry">Reintentar</string>
+    <string name="detail_category">Categoría: %1$s</string>
+    <string name="detail_origin">Origen: %1$s</string>
+    <string name="detail_ingredients">Ingredientes</string>
+    <string name="detail_instructions">Preparación paso a paso</string>
+    <string name="detail_unknown">Sin información</string>
+    <string name="detail_not_found">No se pudo encontrar esta receta.</string>
+    <string name="detail_no_ingredients">No hay ingredientes disponibles.</string>
+    <string name="detail_no_instructions">No hay instrucciones disponibles.</string>
+
+</resources>

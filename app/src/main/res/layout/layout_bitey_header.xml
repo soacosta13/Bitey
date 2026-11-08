@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="76dp"
+    android:background="@color/bitey_primary"
+    android:elevation="4dp">
+
+    <!-- A cream capsule keeps the dark-green wordmark readable. -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardBiteyLogo"
+        android:layout_width="220dp"
+        android:layout_height="58dp"
+        app:cardBackgroundColor="@color/bitey_logo_capsule"
+        app:cardCornerRadius="29dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgBiteyHeaderLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/bitey_logo_description"
+            android:src="@drawable/bitey_nombre" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Shortcut back to the Home screen -->
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/cd_go_home"
+        android:src="@drawable/ic_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

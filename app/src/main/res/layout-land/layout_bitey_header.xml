@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@color/bitey_primary">
+
+    <!-- Compact header for landscape orientation. -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardBiteyLogo"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        app:cardBackgroundColor="@color/bitey_logo_capsule"
+        app:cardCornerRadius="17dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgBiteyHeaderLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/bitey_logo_description"
+            android:src="@drawable/bitey_nombre" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Shortcut back to the Home screen -->
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/cd_go_home"
+        android:src="@drawable/ic_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

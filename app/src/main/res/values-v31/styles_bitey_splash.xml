@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Bitey.Splash" parent="Theme.Bitey">
+
+        <!-- Cream background for the Android system splash -->
+        <item name="android:windowBackground">@color/bitey_background</item>
+
+        <item name="android:windowSplashScreenBackground">@color/bitey_background</item>
+
+        <!-- Hide the system splash icon -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/bitey_splash_clear_icon</item>
+
+    </style>
+
+</resources>
+
